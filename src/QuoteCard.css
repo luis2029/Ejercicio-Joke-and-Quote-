@@ -1,0 +1,40 @@
+/* QuoteCard.css */
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons button:hover {
+    background-color: #27ae60;
+  }
+  
+  .text {
+    font-size: 1.8em;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .error {
+    font-size: 1.2em;
+    color: #e74c3c;
+    margin-top: 10px;
+  }
+  
+  .card {
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
